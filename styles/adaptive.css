@@ -1,10 +1,16 @@
-@media all and (max-width: 375px) {
+@media all and (max-width: 500px) {
   .nav_list {
     display: none;
     flex-direction: column;
     width: fit-content;
   }
-
+  .nav_bg {
+    height: 135px;
+    object-fit: contain;
+  }
+  .menu {
+    display: block;
+  }
   .hero {
     height: 820px;
   }
@@ -17,26 +23,15 @@
     height: 480px;
     justify-content: end;
   }
-  .about {
-    height: fit-content;
-    padding: 20px 0px;
-    flex-direction: column;
-  }
-  .about_left {
-    width: 90%;
-  }
-  .about_right {
-    width: 90%;
-  }
   .hero_down {
-    bottom: 306px;
+    bottom: 292px;
   }
   .hero_end {
     margin: auto;
-    margin-top: 70px;
+    margin-top: 65px;
     align-items: flex-start;
     flex-direction: column;
-    width: 300px;
+    width: 60%;
   }
   .hero_left {
     width: 65%;
@@ -47,12 +42,16 @@
   .hero_right {
     width: 80%;
   }
-  .nav_bg {
-    height: 100px;
-    object-fit: contain;
+  .about {
+    height: fit-content;
+    padding: 20px 0;
+    flex-direction: column;
   }
-  .menu {
-    display: block;
+  .about_left {
+    width: 90%;
+  }
+  .about_right {
+    width: 90%;
   }
   .numbers {
     flex-direction: column;
@@ -69,56 +68,47 @@
   .tools_end {
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-    width: 200%;
+    margin-top: 20px;
   }
   .tools_right {
     width: 90%;
   }
+  .tools_left {
+    width: 65%;
+  }
   .carousel {
     height: 295px !important;
   }
-
   .carousel-item {
-    width: 43% !important;
-    margin-left: 250px;
+    width: 70% !important;
+    margin-left: 50px;
     margin-top: 30px;
   }
   .carousel-control-prev {
-    left: 170px !important;
+    left: -7px !important;
   }
-
-  .carousel-indicators {
-    bottom: -60px;
-    left: 7px;
-  }
-
   .objects {
-    height: 350px;
+    height: 300px;
     display: flex;
     justify-content: center;
-    margin-top: 0;
+    margin-top: -135px;
   }
   .objects img {
     width: 88%;
   }
-
   footer {
     font-size: 12.5px;
-    width: 102%;
+    width: 100%;
     height: 40px;
     display: flex;
     align-items: center;
   }
-
   footer p {
     margin: 0;
   }
-
   footer img {
     width: 20%;
   }
-
   .cust_list {
     flex-direction: column;
     justify-content: space-around;
