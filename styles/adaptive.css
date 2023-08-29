@@ -80,7 +80,7 @@
   }
 
   .carousel-item {
-    width: 50% !important;
+    width: 43% !important;
     margin-left: 250px;
     margin-top: 30px;
   }
@@ -90,6 +90,40 @@
 
   .carousel-indicators {
     bottom: -60px;
-    left: 150px;
+    left: 7px;
+  }
+
+  .objects {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .objects img {
+    width: 88%;
+  }
+
+  footer {
+    font-size: 12.5px;
+    width: 102%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer img {
+    width: 20%;
+  }
+
+  .cust_list {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 577px;
+    padding-left: 0;
+    margin-bottom: -20px;
   }
 }
